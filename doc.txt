@@ -113,5 +113,27 @@ Bấm trộn thư
 	- tìm hiểu công cụ khác ngoài phpMailer
 
 		-phpMailer, smtp
+document phpmailer và cài smtp:
+	- https://github.com/PHPMailer/PHPMailer
+	- https://mailtrap.io/blog/phpmailer/
+	- https://kb.pavietnam.vn/huong-dan-gui-mail-smtp-voi-phpmailer-6-7.html
+	- trang tạo app password cho gmail: https://myaccount.google.com/apppasswords
+	- 
+
+Thêm:
+tạo một bảng lưu các template mà người dùng gửi (id, nội dung)
+thêm cột id vào bảng mail
+khi người dùng nhập nội dung 
+-> nếu trong đó có các dấu giữ chỗ thì sinh ra các ô 
+cho người dùng nhập vào các cột trong excel tương ứng với các placeholder.
+- in ra các placeholder có trong nhập nội dung .
+- ô input (liệt kê các cột trong excel) cho người dùng chọn. chọn rồi sẽ đánh dấu mờ. 
+
+	Ngày 21/11/2024
+- bảng template lưu nội dung 
+- bảng mail, cột nội dung sẽ lưu kiểu (key : value) 
+	+ key là các dấu giữ chỗ trong nội dung template 
+	+ value là giá trị trong file excel để điền vào 
+	+ ví dụ: (<name :: hoàng anh>,<birth :: 20/10/2004>,...)
 
 
