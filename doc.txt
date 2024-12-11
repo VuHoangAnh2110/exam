@@ -1,139 +1,129 @@
-Cài đặt php: https://funix.edu.vn/chia-se-kien-thuc/huong-dan-lap-trinh-php-tren-visual-studio-code/
-Cài đặt môi trường để code php: https://www.youtube.com/watch?v=IVu4YayHDbs
+	Cài đặt php: https://funix.edu.vn/chia-se-kien-thuc/huong-dan-lap-trinh-php-tren-visual-studio-code/
+	Cài đặt môi trường để code php: https://www.youtube.com/watch?v=IVu4YayHDbs
+
+	jQuery 
+	kết nối cơ sở dữ liệu với php - Sử dụng Laragon
+	ajax: https://learn.jquery.com/ajax/
+
+	1.Bài tập:
+		tạo một trang nhập thông tin gồm:
+		form nhập
+		bảng (phân trang bằng ajax)
+			số trang 
+			tổng số bản ghi
+			trang hiện tại
+
+	- load form: https://www.quora.com/How-do-I-avoid-a-duplicate-submission-form-in-PHP
+	- https://stackoverflow.com/questions/12383371/refresh-a-page-using-php     
+	- Custom alert: https://flowbite.com/docs/components/alerts/
+
+	Note 
+		Bài cũ: tìm hiểu về sự khác nhau của success và done trong ajax
+		nếu dùng ajax success thì trong file ở url nên đánh dấu để khi trả về success có sự so sánh.
 
 
-jQuery 
-kết nối cơ sở dữ liệu với php
-ajax: https://learn.jquery.com/ajax/
-
-Bài tập:
-    tạo một trang nhập thông tin
-    form nhập
-    bảng (phân trang bằng ajax)
-        số trang 
-        tổng số bản ghi
-        trang hiện tại
-
-load form: https://www.quora.com/How-do-I-avoid-a-duplicate-submission-form-in-PHP
-
-https://stackoverflow.com/questions/12383371/refresh-a-page-using-php
-
-
-
-                
-Custom alert: https://flowbite.com/docs/components/alerts/
-
-
-Note 
-    Bài cũ: tìm hiểu về sự khác nhau của success và done trong ajax
-    nếu dùng ajax success thì trong file ở url nên đánh dâu để khi trả về success có sự so sánh.
-
-
-    30/9/1024
-
+    Ngày 30/9/1024
         tìm hiểu CI framework
-        layout  (header và footer)
-        ghép bài information vào CI
-        MVC
-
+        layout (header, body và footer)
+        2. Bài tập:
+			ghép bài information vào CI
+        mô hình MVC
         1: https://viblo.asia/p/codeigniter-framework-su-dung-voi-smarty-3ZabG95zGzY6
         2: https://viblo.asia/p/codeigniter-framework-phan-1-mo-hinh-mvc-trong-codeigniter-php-MJykjQjqePB
         3: https://codeigniter.com/user_guide/index.html
 
 
+	Ngày 3/10/2024
+		Xử lý layout (chia làm 3 phần header, footer, homepage)
+		khi xử lý động thì chỉ load view ở homepage và không load lại cả header và footer.
+		- https://stackoverflow.com/questions/9540576/header-and-footer-in-codeigniter
+		- https://freetuts.net/ky-thuat-master-layout-trong-codeigniter-54.html
 
-	New: Ngày 3/10/2024
- 	
-Xử lý layout (chia làm 3 phần header, footer, homepage)
-		khi xử lý động thì chỉ load view ở homepage.
-	- https://stackoverflow.com/questions/9540576/header-and-footer-in-codeigniter
-	- https://freetuts.net/ky-thuat-master-layout-trong-codeigniter-54.html
-	-	
+		Tìm hiểu php office (word, exl, pdf)
+		Tìm hiểu và cài đặt smarty.
+		- cài đặt bằng composer: composer require smarty/smarty
+		- Có smarty không tương thích với php 8.1
+		- version php: https://windows.php.net/downloads/releases/
+		- change on laragon: https://ducdev.id.vn/huong-dan-cai-dat-va-su-dung-nhieu-phien-ban-php-tren-thiet-bi-voi-laragon/
 
-	Tìm hiểu php office (word, exl, pdf)
-	Tìm hiểu và cài đặt smarty.
-	- cài đặt bằng composer: composer require smarty/smarty
-	- Có smarty không tương thích với php 8.1
-	- version php: https://windows.php.net/downloads/releases/
-	- change on laragon: https://ducdev.id.vn/huong-dan-cai-dat-va-su-dung-nhieu-phien-ban-php-tren-thiet-bi-voi-laragon/
+		- Cài đặt phpword: https://github.com/PHPOffice/PHPWord/blob/master/README.md
+			khi cài đặt mở terminal và cài đặt
+			Nếu không cài đặt được trong terminal vcsode thì mở terminal trong laragon cài đặt
+			Kiểm tra phiên bản php, hoặc thêm php vào bath của variable
 
+		- các kiểu phpword: https://phpword.readthedocs.io/en/latest/styles.html
+			https://phpoffice.github.io/PHPWord/usage/elements/watermark.html#:~:text=To%20add%20a%20watermark%20(or,method%20to%20add%20a%20watermark.
+			https://github.com/PHPOffice/PHPWord?files=1
+			https://phpword.readthedocs.io/en/develop/elements.html
 
-- Cài đặt phpword: https://github.com/PHPOffice/PHPWord/blob/master/README.md
-	khi cài đặt mở terminal và cài đặt
-	Nếu không cài đặt được trong terminal vcsode thì mở terminal trong laragon cài đặt
-	Kiểm tra phiên bản php, hoặc thêm php vào bath của variable
-
-- các kiểu phpword: https://phpword.readthedocs.io/en/latest/styles.html
-		- https://phpoffice.github.io/PHPWord/usage/elements/watermark.html#:~:text=To%20add%20a%20watermark%20(or,method%20to%20add%20a%20watermark.
-		- https://github.com/PHPOffice/PHPWord?files=1
-		- https://phpword.readthedocs.io/en/develop/elements.html
-
-- Cài đặt pdf bằng mpdf: 
-
-- Cài đặt excel bằng phpspreadsheet: https://www.studentstutorial.com/php-spreadsheet/phpspreadsheet-tutorial
-
-- tìm hiểu composer
+		- Cài đặt pdf bằng mpdf: 
+		- Cài đặt excel bằng phpspreadsheet: https://www.studentstutorial.com/php-spreadsheet/phpspreadsheet-tutorial
+		- tìm hiểu composer
 
 	Ngày 10/10/2024 
-	Tìm hiểu cài đặt smarty mới (5.4.1) để phù hợp với version php mới (8.1+).
+		Tìm hiểu cài đặt smarty mới (5.4.1) để phù hợp với version php mới (8.1+).
  
 
 	Ngày 17/10/2024
-    
         - tìm hiểu trộn thư 
-	- lưu các template thư
+		- lưu các template thư
         - file excel là người dùng tải lên để trộn
-        
-	- tìm hiểu cách lưu trữ 
-	- lưu trữ ở đây là lưu trữ form (template) của thư 
-	- ví dụ form 1 sẽ có họ tên, giới tính  ...
-	- nhưng form 2 yêu cầu thêm email, ...
-	- trước khi trộn thì sẽ yêu cầu người dùng chọn form trước (cho người dùng chọn các trường để trộn và đưa ra các template thích hợp) 
-	- sau đó mới được tải tệp lên để trộn
-
-	
-Bước:
-Tải file excel lên - hiện ra tên file cho user
-chọn template
-(nhập các trường trong email tương ứng với place holder) 
-Bấm trộn thư 
+		- tìm hiểu cách lưu trữ 
+		- lưu trữ ở đây là lưu trữ form (template) của thư 
+		- ví dụ form 1 sẽ có họ tên, giới tính  ...
+		- nhưng form 2 yêu cầu thêm email, ...
+		- trước khi trộn thì sẽ yêu cầu người dùng chọn form trước (cho người dùng chọn các trường để trộn và đưa ra các template thích hợp) 
+		- sau đó mới được tải tệp lên để trộn
+		
+		Bước:
+			Tải file excel lên - hiện ra tên file cho user
+			chọn template
+			(nhập các trường trong email tương ứng với place holder) 
+			Bấm trộn thư 
 
 	Ngày 24/10/2024
-	- Trộn thư và gửi mail trên web
-	- Gửi qua https
+		- Trộn thư và gửi mail trên web
+		- Gửi qua https
 
-	- Tạo một ô input cho người dùng nhập vào text (mẫu nội dung cho một email)
-	- Người dùng nhập vào nội dung email với các dấu giữ chỗ (placeholder).
-	- Đọc nội dung (xem có chỗ nào '<<abc>>' thì coi là placeholder)
-	- Lấy các placeholder í ra và truyền vào dòng đầu tiên của 1 file excel (mẫu cho người dùng nhập dữ liệu vào)
-	- Người dùng tải file excel có dữ liệu lên và trộn mail rồi gửi 
+		- Tạo một ô input cho người dùng nhập vào text (mẫu nội dung cho một email)
+		- Người dùng nhập vào nội dung email với các dấu giữ chỗ (placeholder).
+		- Đọc nội dung (xem có chỗ nào '<<abc>>' thì coi là placeholder)
+		- Lấy các placeholder í ra và truyền vào dòng đầu tiên của 1 file excel (mẫu cho người dùng nhập dữ liệu vào)
+		- Người dùng tải file excel có dữ liệu lên và trộn mail rồi gửi 
 
-	- lưu trữ cơ sở dữ liệu (để biết mail có được gửi đủ không, hay thiếu sót)
-	- lưu nội dung trộn vào database (nếu để trong file excel thì khi đang gửi mà tắt trình duyệt đi thì sẽ dừng gửi)
-	- tìm hiểu công cụ khác ngoài phpMailer
+		- lưu trữ cơ sở dữ liệu (để biết mail có được gửi đủ không, hay thiếu sót)
+		- lưu nội dung trộn vào database (nếu để trong file excel thì khi đang gửi mà tắt trình duyệt đi thì sẽ dừng gửi)
+		- tìm hiểu công cụ khác ngoài phpMailer
 
 		-phpMailer, smtp
-document phpmailer và cài smtp:
-	- https://github.com/PHPMailer/PHPMailer
-	- https://mailtrap.io/blog/phpmailer/
-	- https://kb.pavietnam.vn/huong-dan-gui-mail-smtp-voi-phpmailer-6-7.html
-	- trang tạo app password cho gmail: https://myaccount.google.com/apppasswords
-	- 
-
-Thêm:
-tạo một bảng lưu các template mà người dùng gửi (id, nội dung)
-thêm cột id vào bảng mail
-khi người dùng nhập nội dung 
--> nếu trong đó có các dấu giữ chỗ thì sinh ra các ô 
-cho người dùng nhập vào các cột trong excel tương ứng với các placeholder.
-- in ra các placeholder có trong nhập nội dung .
-- ô input (liệt kê các cột trong excel) cho người dùng chọn. chọn rồi sẽ đánh dấu mờ. 
+		document phpmailer và cài smtp:
+			- https://github.com/PHPMailer/PHPMailer
+			- https://mailtrap.io/blog/phpmailer/
+			- https://kb.pavietnam.vn/huong-dan-gui-mail-smtp-voi-phpmailer-6-7.html
+			- trang tạo app password cho gmail: https://myaccount.google.com/apppasswords
+		
+		Thêm:
+			tạo một bảng lưu các template mà người dùng gửi (id, nội dung)
+			thêm cột id vào bảng mail
+			khi người dùng nhập nội dung 
+			-> nếu trong đó có các dấu giữ chỗ thì sinh ra các ô 
+			cho người dùng nhập vào các cột trong excel tương ứng với các placeholder.
+			- in ra các placeholder có trong nhập nội dung .
+			- ô input (liệt kê các cột trong excel) cho người dùng chọn. chọn rồi sẽ đánh dấu mờ. 
 
 	Ngày 21/11/2024
-- bảng template lưu nội dung 
-- bảng mail, cột nội dung sẽ lưu kiểu (key : value) 
-	+ key là các dấu giữ chỗ trong nội dung template 
-	+ value là giá trị trong file excel để điền vào 
-	+ ví dụ: (<name :: hoàng anh>,<birth :: 20/10/2004>,...)
+		- bảng template lưu nội dung 
+		- bảng mail, cột nội dung sẽ lưu kiểu (key : value) 
+			+ key là các dấu giữ chỗ trong nội dung template 
+			+ value là giá trị trong file excel để điền vào 
+			+ ví dụ: (<name :: hoàng anh>,<birth :: 20/10/2004>,...)
+		
+
+
+
+
+
+
+
 
 
