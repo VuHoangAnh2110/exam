@@ -117,10 +117,15 @@
 			+ key là các dấu giữ chỗ trong nội dung template 
 			+ value là giá trị trong file excel để điền vào 
 			+ ví dụ: (<name :: hoàng anh>,<birth :: 20/10/2004>,...)
-		
+	
+	Khi đẩy file lên github chú ý file gitignore xem có chặn gì không (ví dụ: file vendo, ...)
+	nếu bị chặn thì ko chạy được các thư viện cài đặt từ composer.
+
+	Ngày  	
 
 
 
+	
 
 
 
