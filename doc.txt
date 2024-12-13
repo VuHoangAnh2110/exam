@@ -121,14 +121,34 @@
 	Khi đẩy file lên github chú ý file gitignore xem có chặn gì không (ví dụ: file vendo, ...)
 	nếu bị chặn thì ko chạy được các thư viện cài đặt từ composer.
 
-	Ngày  	
+	Ngày 13/12/2024
+	Cài đặt tailwind vào dự án.
+	1. Cài qua cdn (cần mạng - gọi trực tiếp trong html):
+	2. Cài đặt trực tiếp vào dự án:
+	- Mở terminal của project (cd .... đến thư mục gốc của dự án)
+	- Nhập: 
+		npm install -D tailwindcss
+		npx tailwindcss init 
+	 để cài đặt tailwind và tạo file config cho nó.
+	- Trong file tailwind.config.js cấu hình cho các file sử dụng tailwind:
+		 content: [
+    			"./application/views/**/*.php",
+    			"./application/assets/**/*.js"],
+	- Trong thư mục gốc có thể tạo thêm thư mục cùng cấp với ./application, ./system
+		ví dụ ./tailwind/InCSS để chuẩn bị biên dịch
+	- Tạo thêm file ./tailwind/InCSS/app.css và nhập:
+		@tailwind base;
+		@tailwind components;
+		@tailwind utilities;
+	- Trong terminal nhập:
+		npx tailwindcss -i ./tailwind/InCSS/app.css -o ./tailwind/OutCSS/output.css --watch
+	 để thực hiện biên dịch
+	- Có thể nén file output.css để giảm dung lượng và tăng tốc cho sản phẩm:
+		npx tailwindcss -i ./tailwind/InCSS/app.css -o ./tailwind/OutCSS/output.css --minify
+	- Sau đó có thể sử dụng bằng cách gọi đến nó trong các file chứa html:
+		  <link href="./tailwind/OutCSS/output.css" rel="stylesheet">
 
-
-
+	Ngày 
 	
-
-
-
-
 
 
