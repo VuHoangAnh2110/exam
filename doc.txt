@@ -3,7 +3,9 @@
 
 	jQuery 
 	kết nối cơ sở dữ liệu với php - Sử dụng Laragon
-	ajax: https://learn.jquery.com/ajax/
+	ajax: 
+	- https://learn.jquery.com/ajax/
+	- https://www.itsolutionstuff.com/post/jquery-ajax-request-example-in-codeigniterexample.html
 
 	1.Bài tập:
 		tạo một trang nhập thông tin gồm:
@@ -41,13 +43,13 @@
 
 		Tìm hiểu php office (word, exl, pdf)
 		Tìm hiểu và cài đặt smarty.
-		- cài đặt bằng composer: composer require smarty/smarty
+		- cài đặt bằng composer (mở terminal và nhập): composer require smarty/smarty
 		- Có smarty không tương thích với php 8.1
 		- version php: https://windows.php.net/downloads/releases/
 		- change on laragon: https://ducdev.id.vn/huong-dan-cai-dat-va-su-dung-nhieu-phien-ban-php-tren-thiet-bi-voi-laragon/
 
 		- Cài đặt phpword: https://github.com/PHPOffice/PHPWord/blob/master/README.md
-			khi cài đặt mở terminal và cài đặt
+			khi cài đặt mở terminal (cd đến thư mục gốc) và cài đặt
 			Nếu không cài đặt được trong terminal vcsode thì mở terminal trong laragon cài đặt
 			Kiểm tra phiên bản php, hoặc thêm php vào bath của variable
 
@@ -123,7 +125,8 @@
 
 	Ngày 13/12/2024
 	Cài đặt tailwind vào dự án.
-	1. Cài qua cdn (cần mạng - gọi trực tiếp trong html):
+	1. Cài qua cdn (cần mạng - gọi trực tiếp trong html):     
+		<script src="https://cdn.tailwindcss.com"></script>
 	2. Cài đặt trực tiếp vào dự án:
 	- Mở terminal của project (cd .... đến thư mục gốc của dự án)
 	- Nhập: 
@@ -148,7 +151,23 @@
 	- Sau đó có thể sử dụng bằng cách gọi đến nó trong các file chứa html:
 		  <link href="./tailwind/OutCSS/output.css" rel="stylesheet">
 
-	Ngày 
-	
+	Ngày 16/12/2024
+	Cài đặt jquery vào dự án 
+	1.  cài đặt qua cdn:
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	2. Cài đặt trực tiếp:
+	- Tải phiên bản jquery về máy
+	- Đưa file tải về vào thư mục tự tạo. ví dụ: assets
+	- và gọi lại trong các view: 
+		    <script src="{$base_url}application/assets/jquery.js"></script>
 
+	Cài đặt thông báo toastr
+	- 1.1 https://www.youtube.com/watch?v=O0r_J4Jf_vw&t=37s
+	- 1.2 https://codeseven.github.io/toastr/
+	- 1.3 Thêm đoạn mã sau vào head của view (html):     
+		<link rel="stylesheet" href="{$base_url}application/assets/toastr/toastr.min.css">
+		<script src="{$base_url}application/assets/toastr/toastr.min.js"></script>
+
+	Tìm hiểu các hàm đặc trưng: https://topdev.vn/blog/regex-la-gi/
+	- 
 
